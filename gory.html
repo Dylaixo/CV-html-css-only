@@ -7,7 +7,7 @@
     <link href="styles.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&family=Saira+Condensed&display=swap" rel="stylesheet">
 </head>
 <body id="gory">
 <div class="background-img">
@@ -34,21 +34,31 @@
         <div class="overlay">
             <a href="#"><img class="photo3" src="img/image3.jpg" ></a>
             <a class="link" href="#"><p>04/06/2021</p></a>
-            <p class="desc">Piękna pogoda w górach zaskoczyła wszystkich, nic tylko wyjść, aby zdobywać szczyty.dddddd dddddd dddddd dddd ddddddd ddddd ddd dddddd dddd dddd ddd</br><a href="#">Czytaj więcej...</a></p>
+            <p class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum,
+                erat sed tempor pretium, libero metus bibendum nulla, sed sagittis urna ligula eget turpis.
+                </br>
+                <a href="#">Czytaj więcej...</a>
+            </p>
         </div>
     </div>
     <div class="postcard">
         <div class="overlay">
             <a href="#"><img class="photo3" src="img/image1.jpg" ></a>
             <a class="link" href="#"><p>09/12/2016</p></a>
-            <p class="desc">Piękna pogoda w górach zaskoczyła wszystkich, nic tylko wyjść, aby zdobywać szczyty.dd dddddd dddd dddddd d dd dddddddd dd d dd ddd dddd ddddd dd dddd</br><a href="#">Czytaj więcej...</a></p>
+            <p class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum,
+                erat sed tempor pretium, libero metus bibendum nulla, sed sagittis urna ligula eget turpis.
+                </br><a href="#">Czytaj więcej...</a></p>
         </div>
     </div>
     <div class="postcard">
         <div class="overlay">
             <a href="#"><img class="photo3" src="img/image4.jpg" ></a>
             <a class="link" href="#"><p>09/12/2016</p></a>
-            <p class="desc">Piękna pogoda w górach zaskoczyła wszystkich, nic tylko wyjść, aby zdobywać szczyty.ddd dddd ddd ddddd d dddd ddddd ddddd ddd dd ddd dddd ddddd ddddddd</br><a href="#">Czytaj więcej...</a></p>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum,
+                erat sed tempor pretium, libero metus bibendum nulla, sed sagittis urna ligula eget turpis.
+                </br><a href="#">Czytaj więcej...</a></p>
         </div>
     </div>
 </div>
@@ -58,8 +68,36 @@
 </div>
 <footer><a href="#gory">Kliknij i przybliż, aby zobaczyć krajobraz.</a></footer>
 <div class="background-down">
-    <p>Duis ut velit sapien. Praesent tincidunt vestibulum mauris, quis lobortis erat egestas a.
-        Nullam sit amet fermentum ligula. Etiam a mi augue.</p>
+   <form class="formularz" method="get">
+      <legend>Napisz do nas:</legend>
+       <p>Czy podobała ci się strona? </br>
+        <label>
+            <input type="checkbox" name="rating" value="yes"/>
+            Tak
+        </label>
+           <label>
+               <input type="checkbox" name="rating" value="no"/>
+               Nie
+           </label>
+           <label>
+               <input type="checkbox" name="rating" value="change"/>
+               Można trochę zmienić
+           </label>
+       </p>
+       <label class="form_option">
+           Imię:
+           <input class="info" type="text" name="email" size="30" maxlength="100" required="required">
+       </label></br>
+       <label>
+           Email:
+           <input class="info" type="email" name="email" size="30" maxlength="100" required="required">
+       </label></br>
+        <label for="mess">
+            Twoja wiadomość:</br>
+        </label>
+       <textarea rows="4" cols="40" id="mess" required="required"></textarea></br>
+       <input class="send_button"type="submit" value="Prześlij wiadomość."/>
+   </form>
 </div>
 </body>
 </html>

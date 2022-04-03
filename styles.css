@@ -102,6 +102,10 @@ address img{
     margin: 0;
     padding: 0;
 }
+#gory{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
 .background-img {
     background-image: url("img/background.jpg");
     background-size: cover;
@@ -172,13 +176,17 @@ address img{
 }
 .main-text{
     margin-top: 30px;
-    width: 400px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
 }
 .desc{
     text-align: left;
+}
+.postcard:hover{
+    text-decoration: underline;
+    transition: 0.7s;
 }
 .articless{
     display: block;
@@ -231,6 +239,7 @@ address img{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
 .overlay:hover
 {
     opacity: 0.8;
@@ -256,8 +265,39 @@ address img{
 footer{
     margin: 10px auto;
     text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
 }
 footer a{
 
     font-size: 20px;
+}
+form{
+    padding-top:100px;
+    align-items: center;
+    margin: auto;
+    width: 25%;
+    font-size: 20px;
+    text-align: center;
+}
+form legend{
+    background: lightgrey;
+    border-radius:10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.formularz{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+}
+.send_button{
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 5px
+}
+#mess, .info{
+    background-color: lightgrey;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
 }
