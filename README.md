@@ -1,9 +1,9 @@
-###### CV with subpage about mountains 
+# CV with subpage about mountains 
 One of my first CV build as a website. It contains only HTML and CSS languages. First page is CV website contain informations about myself.
-#### It's not the newest CV. 
+## It's not the newest CV. 
 ### Link to the newest CV: https://github.com/Dylaixo/ReactCV 
 ### Live  version: 
-##### What is subpage about?
+## What is subpage about?
 ## Main page
 This is a site about mountains around the world. It's some kind of blog website to put there some articles about mountain travelling.
 ![image](https://github.com/Dylaixo/CV-html-css-only/assets/100869542/727cb38e-03c7-47df-a026-eceda3d1bde9)
